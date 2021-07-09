@@ -103,7 +103,6 @@ if __name__ == '__main__':
    watch_directory.py c:/temp,c:/
   """
   PATH_TO_WATCH = ["."]
-  #PATH_TO_WATCH = "D:/chia/Portable_Plots", "H:/Portable_Plots", "I:/Portable_Plots", "J:/Portable_Plots", "K:/Portable_Plots", "L:/Portable_Plots"
   try: path_to_watch = sys.argv[1].split (",") or PATH_TO_WATCH
   except: path_to_watch = PATH_TO_WATCH
   path_to_watch = [os.path.abspath (p) for p in path_to_watch]
@@ -124,7 +123,7 @@ if __name__ == '__main__':
         oldPlots = glob.glob(os.path.join(oldPlotDir, "*.plot"))
         if len(oldPlots) > 0:
           print("Removing {}".format(oldPlots[0]))
-          #os.remove(oldPlots[0])
+          os.remove(oldPlots[0])
         time.sleep (1)
     except queue.Empty:
       time.sleep (1)
