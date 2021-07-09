@@ -1,7 +1,7 @@
 # plot_watcher
 A simple script that can watch a list of directories and does some action when a specific kind of change happens
 
-In its current implementation, this script polls the directories listed as an argument (see plot_watcher.bat) for any changes. Once it finds a new .plot file created or added, it will look in the directory "../Plots" relative to the one where the change happened (so it goes back one level then enters "Plots" dir, where old plots supposedly reside, you çan change this to suit your need) and if it finds any .plot files it will delete one.
+In its current implementation, this script polls the directories listed as an argument (see plot_watcher.bat) for any changes. Once it finds a new .plot file created or added, it will look in the directory "../Plots" relative to the one where the change happened (so it goes back one level then enters "Plots" dir, where old plots supposedly reside, you can change this to suit your need) and if it finds any .plot files it will delete one.
 This will let you keep your plotter working (against your new NFT contract address) and one by one your old plots will be replaced with the newer portable ones.
 
 Example directory structure based on the default arguments in plot_watcher.bat:
