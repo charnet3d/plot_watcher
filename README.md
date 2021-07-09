@@ -44,3 +44,5 @@ oldPlotDir = os.path.abspath(os.path.join(os.path.dirname(filename), "..", "Plot
 ## Usage:
 
 Run the bat file and leave it open to track the new plots.
+
+![plot_watcher screenshot](plot_watcher.png?raw=true "plot_watcher screenshot")
