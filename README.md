@@ -30,3 +30,7 @@ G:
 The script will look inside the "Portable_Plots" directories and once a new .plot file is added the script will delete one .plot file from the old ones in "Plots".
 
 DICLAIMER: This script is given AS-IS and was made for my own case, if you need an update to suit your setup you can fork it and add to it yourself. I'm not liable to any damage done from losing your 5489743159 plots, if you need to do any tests for yourself you can comment out or remove the line "os.remove(...." until your changes are tested and you're satisfied with the result.
+
+## Installation:
+
+We make use of the module pywin32 so it needs to be installed by running the command: **python -m pip install pywin32**
