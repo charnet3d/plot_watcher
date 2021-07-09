@@ -34,3 +34,13 @@ DICLAIMER: This script is given AS-IS and was made for my own case, if you need 
 ## Installation:
 
 We make use of the module pywin32 so it needs to be installed by running the command: **python -m pip install pywin32**
+
+After checking the list of portable plot directories in the .bat file, you need to make sure that either the old Plots follow the same directory structure as described above or you can edit the script to point to the right directory. This following line can be edited to point to the relative path starting from the location of the newly created plot:
+
+```python
+oldPlotDir = os.path.abspath(os.path.join(os.path.dirname(filename), "..", "Plots"))
+```
+
+## Usage:
+
+Run the bat file and leave it open to track the new plots.
