@@ -46,3 +46,12 @@ oldPlotDir = os.path.abspath(os.path.join(os.path.dirname(filename), "..", "Plot
 Run the bat file and leave it open to track the new plots.
 
 ![plot_watcher screenshot](plot_watcher.png?raw=true "plot_watcher screenshot")
+
+
+## License and contribution
+
+Licensed under the (GPL-compatible) MIT License:
+http://www.opensource.org/licenses/mit-license.php
+
+The change tracking functionality was shamelessly taken from this how-to guide. Thanks to the creator Tim Golden.
+http://timgolden.me.uk/python/win32_how_do_i/watch_directory_for_changes.html
