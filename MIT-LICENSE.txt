@@ -1,0 +1,3 @@
+(c) Tim Golden - mail at timgolden.me.uk 5th June 2009
+Licensed under the (GPL-compatible) MIT License:
+http://www.opensource.org/licenses/mit-license.php
